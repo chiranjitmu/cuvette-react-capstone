@@ -1,0 +1,118 @@
+.weather-container {
+  height: 100%;
+  background-color: #101744;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.weather-datetime {
+  background-color: #ff4ade;
+  margin: 0;
+  height: 7vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20vh;
+  padding-inline: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.weather-dataone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.temperature-icon {
+  font-size: x-large;
+}
+
+.temperatureshown-icon{
+  font-size: 50px;
+}
+
+.vertical-line {
+  height: 3vw;
+}
+
+.weather-datatwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.temperature {
+  font-size: 40px;
+}
+
+.datatwo-inside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.datatwo-pressure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: small;
+  gap: 0.2rem;
+}
+
+.weather-datathree {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.datathree-inside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.datathree-wind {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-size: small;
+  gap: 0.2rem;
+}
+
+.wind-icon {
+  font-size: xx-large;
+}
+
+.humidity-icon {
+  font-size: x-large;
+}
+
+.datathree-humidity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-size: small;
+  gap: 0.2rem;
+}

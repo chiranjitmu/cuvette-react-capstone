@@ -1,0 +1,26 @@
+.movierow-container {
+  margin-inline: 2rem;
+}
+
+.browse-genre-name {
+  color: #878787;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: large;
+  margin: 0;
+}
+
+.movieRowmain{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0.5rem;
+    overflow: auto;
+}
+
+
+/* mobile */
+@media screen and (max-width: 600px) {
+.movieRowmain{
+  justify-content: start;
+}
+}

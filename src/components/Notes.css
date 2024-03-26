@@ -1,0 +1,38 @@
+.notes-container {
+  box-sizing: border-box;
+  padding: 0.7rem;
+  color: black;
+}
+
+.notes-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.notes-textarea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: medium;
+  background: transparent;
+  border: none;
+  width: 25vw;
+  max-width: 25vw;
+  height: 40vh;
+  max-height: 40vh;
+  padding: 1rem;
+}
+
+.notes-textarea:focus {
+  border: 1px solid black;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .notes-textarea {
+    width: 90%;
+    max-width: 90%;
+    height: 40vh;
+    max-height: 40vh;
+  }
+}

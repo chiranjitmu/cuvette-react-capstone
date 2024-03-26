@@ -1,0 +1,80 @@
+.timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+.timer-timeup {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.timer-show {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.timer-button-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 50%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 1rem;
+  color: #949494;
+  gap: 0.6rem;
+}
+
+.timer-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  color: #949494;
+}
+
+.timer-hours,
+.timer-minutes,
+.timer-seconds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 0.5rem;
+
+}
+
+.timer-startbutton-main {
+  width: 68%;
+}
+
+.timer-startbutton {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  background-color: #ff6a6a;
+  color: white;
+  font-size: medium;
+  border: none;
+}
+
+.hour-heading,
+.minute-heading,
+.seconds-heading {
+  font-size: medium;
+  margin: 0;
+}
+
+.down-arrow{
+  transform: rotate(180deg);
+}
